@@ -33,6 +33,9 @@
     "require-dev": {
         "phpunit/phpunit": "^4.0 || ^5.0 || ^6.0"
     },
+    "suggest": {
+        "roave/better-reflection": "For generating the sniff reference located in scripts/build-sniff-reference.php"
+    },
     "bin": [
         "bin/phpcs",
         "bin/phpcbf"
